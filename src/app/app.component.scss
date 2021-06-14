@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+* {
+	font-family: 'Neucha', cursive;
+}
+.box {
+    max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+h1 {
+    font-size: 100px;
+	color: #264653;
+	padding: 50px 0;
+}
+.flex {
+	display: flex;
+}
+input {
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	margin: 0 20px 20px 0;
+	border-radius: 4px;
+	outline: none;
+	font-size: 20px;
+	outline: none;
+	border: none;
+}
+input::-webkit-input-placeholder {
+	color: #264653;
+}
+input:active {
+	background-color: #E9C46A;
+}
+input:focus {
+	background-color: #E9C46A;
+}
+input:hover {
+	background-color: #E9C46A;
+}
+button {
+	color: #264653;
+	background-color: #fff;
+    height: 50px;
+	border: 1px solid transparent;
+    border-radius: 4px;
+	margin-bottom: 30px;
+	width: 202px;
+	font-size: 20px;
+	outline: none;
+}
+button:active {
+	background-color: #E9C46A;
+}
+button:hover {
+	background-color: #E9C46A;
+}
+span {
+	font-size: 50px;
+	color: #264653;
+}
+.btn {
+	margin-top: 30px;
+}
+p {
+	font-size: 80px;
+	font-weight: 700;
+	color: #E76F51;
+	margin: 0;
+	padding-bottom: 15px;
+}
+@media(max-width: 570px) {
+	h1 {
+		font-size: 80px;
+		padding: 50px 0;
+	}
+}
+@media(max-width: 451px) {
+	h1 {
+		font-size: 55px;
+	}
+	.flex {
+		display: block;
+	}
+	input {
+		width: 100%;
+	}
+	button {
+		width: 100%;
+	}
+	span {
+		font-size: 30px;
+	}
+	p {
+		font-size: 50px;
+	}
+}
+
+// .dark {
+// 	width: 40px;
+// 	height: 40px;
+// 	background-color: #264653;
+// 	border: 2px solid #fff;
+// }
+// .blue {
+// 	width: 40px;
+// 	height: 40px;
+// 	background-color: #2A9D8F;
+// 	border: 2px solid #fff;
+// }
+// .yellow {
+// 	width: 40px;
+// 	height: 40px;
+// 	background-color: #E9C46A;
+// 	border: 2px solid #fff;
+// }
+// .orange {
+// 	width: 40px;
+// 	height: 40px;
+// 	background-color: #F4A261;
+// 	border: 2px solid #fff;
+// }
+// .red {
+// 	width: 40px;
+// 	height: 40px;
+// 	background-color: #E76F51;
+// 	border: 2px solid #fff;
+// }
